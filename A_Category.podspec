@@ -91,7 +91,7 @@ A short description of A_CategoryA short description of A_Category,
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes/Addition/*.{h,m}"
+  spec.source_files  = "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
