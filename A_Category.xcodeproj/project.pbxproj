@@ -14,7 +14,7 @@
 		E3167BC224F1203E009F3729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3167BC124F1203E009F3729 /* Assets.xcassets */; };
 		E3167BC524F1203E009F3729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3167BC324F1203E009F3729 /* LaunchScreen.storyboard */; };
 		E3167BC824F1203E009F3729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3167BC724F1203E009F3729 /* main.m */; };
-		E3167BF124F12C91009F3729 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = E3167BF024F12C91009F3729 /* CTMediator+A.m */; };
+		E3FAF76324F38E8500E13873 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAF76224F38E8500E13873 /* CTMediator+A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		E3167BC724F1203E009F3729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3167BCD24F1203E009F3729 /* A_CategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A_CategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3167BD824F1203E009F3729 /* A_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3167BEF24F12C91009F3729 /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+A.h"; sourceTree = "<group>"; };
-		E3167BF024F12C91009F3729 /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+A.m"; sourceTree = "<group>"; };
+		E3FAF76124F38E8500E13873 /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+A.h"; sourceTree = "<group>"; };
+		E3FAF76224F38E8500E13873 /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+A.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		E3167BB424F1203D009F3729 /* A_Category */ = {
 			isa = PBXGroup;
 			children = (
-				E3167BEA24F12B82009F3729 /* Classes */,
+				E3FAF76024F38E8500E13873 /* Classes */,
 				E3167BB524F1203D009F3729 /* AppDelegate.h */,
 				E3167BB624F1203D009F3729 /* AppDelegate.m */,
 				E3167BBB24F1203D009F3729 /* ViewController.h */,
@@ -125,22 +125,15 @@
 			path = A_Category;
 			sourceTree = "<group>";
 		};
-		E3167BEA24F12B82009F3729 /* Classes */ = {
+		E3FAF76024F38E8500E13873 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E3167BEE24F12C91009F3729 /* Addition */,
+				E3FAF76124F38E8500E13873 /* CTMediator+A.h */,
+				E3FAF76224F38E8500E13873 /* CTMediator+A.m */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E3167BEE24F12C91009F3729 /* Addition */ = {
-			isa = PBXGroup;
-			children = (
-				E3167BEF24F12C91009F3729 /* CTMediator+A.h */,
-				E3167BF024F12C91009F3729 /* CTMediator+A.m */,
-			);
-			path = Addition;
-			sourceTree = "<group>";
+			name = Classes;
+			path = A_Category/Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 		F957FBBF2C2480D8E5753674 /* Pods */ = {
 			isa = PBXGroup;
@@ -308,9 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3167BBD24F1203D009F3729 /* ViewController.m in Sources */,
+				E3FAF76324F38E8500E13873 /* CTMediator+A.m in Sources */,
 				E3167BB724F1203D009F3729 /* AppDelegate.m in Sources */,
 				E3167BC824F1203E009F3729 /* main.m in Sources */,
-				E3167BF124F12C91009F3729 /* CTMediator+A.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

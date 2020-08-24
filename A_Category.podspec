@@ -91,7 +91,7 @@ A short description of A_CategoryA short description of A_Category,
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes/**/*.{h,m}"
+  spec.source_files  = "A_Category/Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -134,5 +134,7 @@ A short description of A_CategoryA short description of A_Category,
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
+  spec.dependency "CTMediator"
 
 end
